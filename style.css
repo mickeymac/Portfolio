@@ -22,6 +22,7 @@ nav:hover{
 /*navbar elements*/
 .logo:hover{
     text-shadow:  2px 2px 10px  white;
+   
 }
 
 .nav-element {
@@ -49,9 +50,12 @@ nav:hover{
     display: none;
 }
 /**main section of home page**/
+.hero{
+    background:linear-gradient(to right,#000428,#004e92);
+}
 main{
     
-    background:linear-gradient(to right,#000428,#004e92);
+    /* background:linear-gradient(to right,#000428,#004e92); */
     height: 700px;
     border-radius: 5px;
     display: flex;
@@ -111,6 +115,7 @@ button  {
    background:linear-gradient(to left,#000428,#004e92);
    box-shadow: inset 2px 2px 7px 1px black,
                inset -2px -2px 7px 1px #023a6a ;
+              
 }
 button:hover{
     background-color: #203350;
@@ -135,19 +140,32 @@ button img{
     background-repeat: no-repeat;  
     box-shadow: inset 4px 4px 7px 1px black,
     inset -4px -4px 7px 1px #0b3552 ; 
+   
 }
 /*main 2*/
 .main2{
-height: 700px;
-background:linear-gradient(to right,#000428,#004e92);
+    height: 700px;
+}
+.main2 .heading{
+display: flex;
+justify-content: center;
+/* background-color: red; */
+}
+.main2 .heading h2{
+    font-size: 2.5rem;
+    color: white;
+    
+    
 }
 
 /*****************************************************************/
 /****for tabs*****/
 @media only screen  and (max-width:780px){
-    main{
-    
+    .hero{
         background:linear-gradient(to right,#000428,#004e92);
+    }
+    main{
+        
         height: 700px;
         border-radius: 5px;
         display: flex;
@@ -304,6 +322,9 @@ background:linear-gradient(to right,#000428,#004e92);
     }
 
      /**main section for phones **/
+     .hero{
+        background:linear-gradient(to right,#000428,#004e92);
+    }
      main{
          display: flex;
          flex-direction: column; 
