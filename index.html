@@ -7,6 +7,7 @@
     <title> Zaid's Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
 
 <body>
@@ -17,27 +18,38 @@
             </div>
             <input type="checkbox" id="click">
             <div class="nav-element">
-                <a href="">Home</a>
-                <a href="">About Me</a>
+                <a href="#hero">Home</a>
+                <a href="#skills">My Skills</a>
                 <a href="">Contact Me</a>
                 <a href="">Projects</a>
+            </label>
+
+            <div class="smedia">
+             <i class="fa fa-github" aria-hidden="true" style="height: 20px;"></i>
+             <i class="fa-brands fa-linkedin-in" style="height: 20px;"></i>
+            </div>
+            
             </div>
             <label for="click">
                 <svg xmlns="http://www.w3.org/2000/svg" class="btn" height="24" viewBox="0 -960 960 960" width="24">
                     <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
                 </svg>
-            </label>
+            <!-- </label>
+           <div class="smedia">
+            <i class="fa fa-github" aria-hidden="true" style="height: 20px;"></i>
+           </div> -->
+        
         </nav>
     </header><br><br><br>
-  <section class="hero">
+  <section class="hero" id="hero">
     <main>
-        <div class="article main-box">
+        <div class="article main-box" >
             <h2>Syed Ahmed Zaid</h2>
             <h3>I am a <span class="auto-type"></span></h3>
             <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
             <script>
                 var typed = new Typed(".auto-type", {
-                    strings: ["Programmer", "Desginer", "Developer"],
+                    strings: ["Programmer...", "Desginer...", "Developer..."],
                     typeSpeed: 180,
                     backSpeed: 180,
                     looped: true,
@@ -55,7 +67,7 @@
 
     </main>
       <!-- main 2 -->
-     <section class="main2">
+     <section class="main2" id="skills">
        <div class="heading">
         <h2>My Skills</h2>
        </div>
